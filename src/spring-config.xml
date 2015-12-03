@@ -6,5 +6,8 @@
        <bean id="helloworld" class="com.rafa.spring.HelloWorld">
               <property name="name" value="Spring"></property>
        </bean>
+       <bean id="triangle" class="com.rafa.spring.TriangleDraw">
+              <property name="type" value="Triangle"></property>
+       </bean>
 
 </beans>
